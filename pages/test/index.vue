@@ -1,7 +1,5 @@
 <template>
-  <div class="index">
-    {{ text }}
-  </div>
+  <div class="index">Datepicker Vee-validate</div>
 </template>
 
 <script lang="ts">
