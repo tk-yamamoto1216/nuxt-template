@@ -22,16 +22,16 @@ export default defineComponent({
 .the-app-header {
   position: sticky;
   top: 0;
-  z-index: 2;
   display: flex;
+  z-index: 2;
+  border-bottom: thin solid $violet-powder;
   align-items: center;
   padding: 1.5rem;
   background-color: $white;
-  border-bottom: thin solid $violet-powder;
 
   > .logo {
-    margin-right: 1rem;
     font-size: 1.3rem;
+    margin-right: 1rem;
     font-weight: bold;
   }
 
