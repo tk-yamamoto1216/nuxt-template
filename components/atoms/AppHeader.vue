@@ -1,5 +1,5 @@
 <template>
-  <header class="the-app-header">
+  <header class="app-header">
     <NuxtLink to="/" class="logo">Nuxt</NuxtLink>
     <NuxtLink to="/" class="item">Top</NuxtLink>
     <NuxtLink to="/" class="item">Post</NuxtLink>
@@ -17,9 +17,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@import 'assets/scss/settings/color';
+@import 'assets/scss/color';
 
-.the-app-header {
+.app-header {
   position: sticky;
   top: 0;
   z-index: 2;
@@ -27,7 +27,6 @@ export default defineComponent({
   align-items: center;
   padding: 1.5rem;
   background-color: $white;
-  border-bottom: thin solid $violet-powder;
 
   > .logo {
     margin-right: 1rem;
@@ -37,7 +36,6 @@ export default defineComponent({
 
   > .item {
     margin-left: 1rem;
-    color: rgb(85, 85, 85);
     font-weight: bold;
     text-decoration: none;
   }
