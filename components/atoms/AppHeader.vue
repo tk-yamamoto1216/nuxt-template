@@ -37,8 +37,8 @@ export default defineComponent({
 
   > .item {
     margin-left: 1rem;
-    font-weight: bold;
     color: rgb(85, 85, 85);
+    font-weight: bold;
     text-decoration: none;
   }
 
